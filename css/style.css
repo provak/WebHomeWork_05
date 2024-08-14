@@ -21,6 +21,10 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 }
 
+h1, h2, p {
+  margin: 0;
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
@@ -178,4 +182,124 @@ body {
   text-align: center;
   border: 1px solid #b6b6b6;
   border-top: none;
+}
+
+.container__modules {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1170px;
+}
+
+.header {
+  margin-bottom: 25px;
+}
+
+.header__modules__logo {
+  margin-bottom: 25px;
+}
+
+.header__link {
+  padding-left: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #3f2aff;
+  background-image: url('../img/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 28%;
+}
+
+.main__header {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  color: #3f2aff;
+}
+
+.modules__list {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+
+.modules__item {
+  display: inline-block;
+  margin: 0;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 205px 25px 25px;
+  vertical-align: top;
+  width: 572px;
+  height: 505px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.modules__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.modules__item-1 {
+  background-image: url('../img/modules-1.jpg');
+}
+
+.modules__item-2 {
+  background-image: url('../img/modules-2.jpg');
+}
+
+.modules__item-3 {
+  background-image: url('../img/modules-3.jpg');
+}
+
+.modules__item-4 {
+  background-image: url('../img/modules-4.jpg');
+}
+
+.modules__descr {
+  position: relative;
+  height: 275px;
+  overflow: hidden;
+}
+
+.modules__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #3f2aff;
+}
+
+.modules__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333;
+}
+
+.modules__number {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: right;
+  color: #eaeaea;
+}
+
+.modules__button {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 50px;
+  padding: 24px 75px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+  background: none;
+  border: 2px solid #3F2AFF;
 }
